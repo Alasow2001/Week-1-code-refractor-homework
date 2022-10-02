@@ -1,15 +1,20 @@
+/* The first line contain the universal selector. This selects all of the elements in this file to share these styles  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* The element selectors select all of the CSS styles for that specific element  */
 body {
-    background-color: #d9dcd6;
+    /* This adds the selected color to the element. */
+    background-color: #d9dcd6; 
 }
 
 header {
+    /*  */
     padding: 20px;
+    /* This refers to the font of the text that will appear on the web page, depending on the browser.  */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -17,7 +22,9 @@ header {
 }
 
 h1 {
+    /*  */
     display: inline-block;
+    /*  */
     font-size: 48px;
 }
 
@@ -27,6 +34,7 @@ nav {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* This  */
     font-size: 20px;
 }
 
@@ -48,6 +56,7 @@ p {
     font-size: 16px;
 }
 
+/* The class selector selects all of the CSS styles for that class. Classes can have multiple instances in the HTML page */
 .hero {
     height: 800px;
     width: 100%;
