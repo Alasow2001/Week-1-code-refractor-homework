@@ -26,7 +26,7 @@ Youtube tutorial on why to use semantic HTML tags rather than div tags:
 https://www.youtube.com/watch?v=ZThq93Yuwd0&t
 
 Link to the updated website:
-
+https://alasow2001.github.io/Week-1-code-refractor-homework/
 
 
 ## License
